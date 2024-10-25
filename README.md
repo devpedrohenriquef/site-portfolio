@@ -3,6 +3,10 @@
 This is a project to start the studies about HTML, CSS and JS.  
 The main goal is create a website whith my professional information.
 
+# Preview
+
+<img src= "https://github.com/devpedrohenriquef/site-portfolio/blob/main/printproject.png" height= "500"/>
+
 ## Main concepts applied
 
 - FlexBox
