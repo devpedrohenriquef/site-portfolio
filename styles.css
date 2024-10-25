@@ -312,8 +312,8 @@ footer {
 .section-experiences-card-text-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   margin-left: 16px;
 }
 
