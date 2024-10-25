@@ -4,6 +4,7 @@
     <head>
       <title>Pedro Henrique</title>
       <link rel="stylesheet" href="styles.css" />
+      <link rel="stylesheet" href="mobile.css">
       <script src="index.js"> </script>
     </head>
   </head>
@@ -21,7 +22,7 @@
             <button onclick="onClickScrollTo('section-contact')">CONTATO</button>
           </div>
           <div class="hero-info">
-            <div>
+            <div class="hero-info-text-container">
               <h1 class="hero-info-title">
                 Oi! Prazer, Eu sou Pedro Henrique. <br />
                 Vamos nos Conhecer!
@@ -149,14 +150,14 @@
               <h5>Jogadores de Futebol</h5>
               <p class="card">Aplicação em JavaScript, HTML e CSS.</p>
               <div class="section-portfolio-card-links">
-                <a>
+                <a onclick="onClickLink ('https://craques-do-mengao.vercel.app/')">
                   <img
                     class="section-portfolio-card-icon-image"
                     src="icons/link.png"
                     alt="Link projeto"
                   />
                 </a>
-                <a>
+                <a onclick="onClickLink ('https://github.com/devpedrohenriquef/Craques-Flamenguistas')" >
                   <img
                     class="section-portfolio-card-icon-image"
                     src="icons/github.png"
